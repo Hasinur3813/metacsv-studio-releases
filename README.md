@@ -49,7 +49,7 @@ no uploading client work to a server.
 ## 🚀 Install
 
 1. Go to the [**latest release**](https://github.com/Hasinur3813/metacsv-studio-releases/releases/latest).
-2. Download **`MetaCSV-Studio-Setup-1.0.4.exe`**.
+2. Download the latest **`MetaCSV-Studio-Setup-<version>.exe`** (check the release notes for the exact filename).
 3. Run it — per-user install, **no admin rights needed**.
 4. Sign in with your MetaCSV account when the app opens.
 
@@ -58,4 +58,4 @@ no uploading client work to a server.
 Each release ships a `SHA256SUMS.txt`. Compare before running:
 
 ```powershell
-Get-FileHash .\MetaCSV-Studio-Setup-1.0.4.exe -Algorithm SHA256
+Get-FileHash .\MetaCSV-Studio-Setup-<version>.exe -Algorithm SHA256
